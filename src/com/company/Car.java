@@ -19,7 +19,8 @@ public abstract class Car {
     }
 
     public abstract void printInfo();
-    void printInfo(String modelName, String  modelClass, double weight, String engine) {
+
+    void printInfo(String modelName, String modelClass, double weight, String engine) {
         System.out.println("Информация об автомобиле " + modelName + modelClass + weight + engine);
     }
 }

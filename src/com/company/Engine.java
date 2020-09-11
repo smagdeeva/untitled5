@@ -6,6 +6,6 @@ public class Engine {
     public String manufacturer;
 
     void printInfo(double power, String manufacturer) {
-        System.out.println("Информация о моторе " +power+ manufacturer );
+        System.out.println("Информация о моторе " + power + manufacturer);
     }
 }
